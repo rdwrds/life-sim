@@ -1,6 +1,7 @@
 {
   "name": "life-sim",
-  "private": true,
+  "private": false,
+  "homepage": "https://rdwrds.github.io/life-sim",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
