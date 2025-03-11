@@ -144,7 +144,7 @@ function App() {
 
   const breakpoints = [];
 
-  const cellSize = 16;
+  const cellSize = 12;
 
   const gridStyle = {
     gridTemplateColumns: `repeat(${size}, ${cellSize}px)`,
