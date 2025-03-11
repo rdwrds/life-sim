@@ -30,8 +30,6 @@
 .grid-container {
   display: grid;
   position: relative;
-  //max-height: 80vh;
-  //max-width: 80vh;
   background-color: #666;
   margin: 25px 0;
 }
