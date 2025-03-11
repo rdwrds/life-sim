@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  outline: solid 1px red;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #777;
+}
+
+.grid-wrapper {
+  display: flex;
+  background-color: #444;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px #333;
+  min-width: 50vw;
+  /*animate the width by explicitly
+  changing it when we add the catalogue
+  its the only way to animate it :(*/
+  transition: width 1s ease;
+}
+
+.grid-wrapper-expand {
+}
+
+.grid-container {
+  display: grid;
+  position: relative;
+  //max-height: 80vh;
+  //max-width: 80vh;
+  background-color: #666;
+  margin: 25px 0;
+}
+
+.cell {
+  display: flex;
+  outline: solid 1px #555;
+  justify-content: center;
+  align-items: center;
+}
+
+.speed-input {
+  margin: 0;
+  display: inline-block;
+  width: 24px;
+}
+
+.generation-info {
+  display: inline-block;
+  text-align: center;
+}

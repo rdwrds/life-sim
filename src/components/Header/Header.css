@@ -1,0 +1,24 @@
+.header-wrapper {
+  background-color: #666;
+  position: absolute;
+  width: 100%;
+  height: 48px;
+  top: 0;
+}
+
+.header {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title {
+}
+
+.author {
+  position: absolute;
+  right: 8px;
+}

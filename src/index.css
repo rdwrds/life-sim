@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto";
+}
+
+button {
+  min-width: 25px;
+  margin: 0 10px;
+  outline: none;
+  border: none;
+  background-color: #444;
+  background-color: none;
+  font-size: 1.25em;
+  font-weight: 200;
+  overflow: hidden;
+}
+
+.no-outline {
+  outline: none;
+}
+
+button > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+i {
+  height: 24px;
+  margin: 0 4px;
+}

@@ -1,0 +1,30 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  min-width: 100px;
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+  border-radius: 0 0 4px 4px;
+  bottom: 0;
+  margin: 0;
+  transition: width 0.25s ease;
+}
+
+.speed-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.speed-input {
+  background-color: #444;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-weight: 600;
+}
+
+.speed-controls input {
+  color: black;
+}
